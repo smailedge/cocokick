@@ -20,7 +20,7 @@ admins = json.load(adminsOpen)
 
 clProfile = cl.getProfile()
 clMID = cl.profile.mid
-admin=['u28d781fa3ba9783fd5144390352b0c24', clMID]
+admin=['ub6f9d53713c5869f0d78e71febe13837', clMID]
 
 setTime = {}
 setTime = read['wait2']['setTime']
@@ -91,15 +91,15 @@ def Tag(to, mid):
         logError(error)
 
 def helpmessage():
-    helpMessage = """☆║．．．．CoCo特製半垢．．．．║☆
+    helpMessage = """☆║．．．．Yuan製作半垢．．．．║☆
 ↪ 「Help」        查看指令列表
 ↪ 「Help Black」  查看黑單指令
 ↪ 「Help Bot」    查看機器指令
 ↪ 「Help Group」  查看群組指令
 ↪ 「Help Kick」   查看踢人指令
 ↪ 「Help Other」  查看其他指令
-〘 Creator By: ©CoCo™  〙
-〘 line.me/ti/p/1MRX_Gjbmv 〙
+〘 Creator By: 幻想工作室™  〙
+〘 line.me/ti/p/abc8806191 〙
 ☆║．．．．．．．．．．．．．．．║☆"""
     return helpMessage
 
@@ -114,8 +114,8 @@ def helpblack():
 ↪ 「Unban」      好友資料解除黑單
 ↪ 「Unban:」     系統識別碼解除黑單
 ↪ 「Unban @」    標註解除黑單
-〘 Creator By: ©CoCo™  〙
-〘 line.me/ti/p/1MRX_Gjbmv 〙
+〘 Creator By: 幻想工作室™  〙
+〘 line.me/ti/p/abc8806191 〙
 ☆║．．．．．．．．．．．．．．．║☆"""
     return helpBlack
 
@@ -127,8 +127,8 @@ def helpbot():
 ↪ 「Reread On/Off」查看文字收回 打開/關閉
 ↪ 「Rec On/Off」   查看貼圖收回 打開/關閉
 ↪ 「Tag On/Off」   標註全部人 打開/關閉
-〘 Creator By: ©CoCo™  〙
-〘 line.me/ti/p/1MRX_Gjbmv 〙
+〘 Creator By: 幻想工作室™  〙
+〘 line.me/ti/p/abc8806191 〙
 ☆║．．．．．．．．．．．．．．．║☆"""
     return helpBot
 
@@ -140,8 +140,8 @@ def helpgroup():
 ↪ 「Ginfo」   查看群組狀態
 ↪ 「Inv mid」 使用系統識別碼邀請進入群組
 ↪ 「Ourl」    開啟群組網址
-〘 Creator By: ©CoCo™  〙
-〘 line.me/ti/p/1MRX_Gjbmv 〙
+〘 Creator By: 幻想工作室™  〙
+〘 line.me/ti/p/abc8806191 〙
 ☆║．．．．．．．．．．．．．．．║☆"""
     return helpGroup
 
@@ -153,8 +153,8 @@ def helpkick():
 ↪ 「Ri @」     標註來回機票
 ↪ 「Tk @」     標注踢出成員
 ↪ 「Uk mid」   使用系統識別碼踢出成員
-〘 Creator By: ©CoCo™  〙
-〘 line.me/ti/p/1MRX_Gjbmv 〙
+〘 Creator By: 幻想工作室™  〙
+〘 line.me/ti/p/abc8806191 〙
 ☆║．．．．．．．．．．．．．．．║☆"""
     return helpKick
 
@@ -173,8 +173,8 @@ def helpother():
 ↪ 「Speed」  查看機器速度
 ↪ 「Sr」     已讀點重設
 ↪ 「Tagall」 標註群組所有成員
-〘 Creator By: ©CoCo™  〙
-〘 line.me/ti/p/1MRX_Gjbmv 〙
+〘 Creator By: 幻想工作室™  〙
+〘 line.me/ti/p/abc8806191 〙
 ☆║．．．．．．．．．．．．．．．║☆"""
     return helpOther
 
